@@ -19,7 +19,7 @@ html {
     height: 100%;
 }
 
-.focalboard-body {
+#focalboard-app {
     @font-face {
         font-family: 'compass-icons';
         src: url('../fonts/compass-icons/compass-icons.eot?45182295');
@@ -39,7 +39,6 @@ html {
         -moz-user-select: none; /* Firefox all */
         -ms-user-select: none; /* IE 10+ */
         user-select: none; /* Likely future */
-        font-family: "Open Sans", sans-serif;
     }
 
     input,
